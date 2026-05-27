@@ -1,5 +1,5 @@
 const CACHE_NAME = 'phoenix-fleet-calculator-v1';
-const FILES_TO_CACHE = ['./index.html', './manifest.json', './icons/icon.svg'];
+const FILES_TO_CACHE = ['./index.html', './manifest.json'];
 
 self.addEventListener('install', event => {
   event.waitUntil(
